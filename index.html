@@ -8,6 +8,7 @@
 		<!-- google fonts -->
 
 		<!-- Css link -->
+		<link rel="shortcut icon" href="https://www.chistlukeshealth.org/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
 		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -23,12 +24,21 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
 
+
+
+    <!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-5WSNM8C');</script>
+		<!-- End Google Tag Manager -->
 	</head>
 	<body id="top">
 	
 
         <header id="navigation" class="navbar-fixed-top animated-header">
-            <div class="container">
+            <div class="container-nav">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -41,7 +51,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="#"><img src="img/chistlukesbarilogo.png" height="auto" width="240" alt=""></a>
+						<a href="index.html"><img src="img/chistlukesbarilogo.png" height="auto" width="240" alt="CHI St. Lukes Health Logo"></a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -49,16 +59,23 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav menu">
-                        <li><a href="#eligibility">Eligibility</a></li>
-                        <li><a href="#health-benefits">Benefits</a></li>
-                        <li><a href="#our-program">Our Program</a></li>
-                        <li><a href="#contact-us">Contact Us</a></li>
-                        <li><a href="#take-the-assessment">Take the Assessment</a></li>
-                    </ul>
-                </nav>
+                        <li><a nav-label="Eligibility" href="#eligibility">Eligibility</a></li>
+						<li><a nav-label="Why Choose Us" href="#chooseus">Why Choose Us</a></li>
+						<li><a nav-label="Take the Assessment" href="#assessment">Take the Assessment</a></li>
+						<li><a nav-label="Benefits" href="#health-benefits">Benefits</a></li>
+						<li><a nav-label="Location" href="#location">Location</a></li>
+                        
+					</ul>
+				
+				</nav>
+				<ul class="contact-section scroll">
+					<li class="contact-phone">936-647-0437</li>
+					<li class="contact-block text-center current"><a href="#requestreferral"><img src="img/envelope.png" style="width:30px" alt="Request a Referral" title="Request A Referral"><br /><span>Request A Referral</span></a></li>
+					</ul>
 				<!-- /main nav -->
 				
-            </div>
+					
+            
         </header>
 
 
@@ -69,24 +86,23 @@
 					<div class="col-md-12">
 						<div class="block">
 							<h1 style="display:none;">CHI St. Luke's Health - Bariatrics</h1>
-							<h2>Lose the wait.</h2>
-							<h2>Take the first step today.</h2>
-							<div class="buttons">
-								<a href="#" class="btn btn-default btn-get-started">Get Started</a>
+							<h1>Lose the wait.</h1>
+							<h1>Take the first step today.</h1>
+							<nav class="buttons scroll">
+								<ul><li class="current"><a href="#eligibility" class="btn btn-default btn-get-started">Get Started</a></li></ul></nav>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="scrolldown">
-	            <a id="scroll" href="#eligibility" class="scroll"></a>
-	        </div>
+
 		</section>
 		<section id="eligibility">
+			<div class="baribg">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-xs-12 col-sm-6 baribg barilist">
-						<h3 class="barititle">It's not just an option. <br />It's an opportunity.</h3>
+					<div class="col-md-6 col-xs-12 col-sm-6 barilist">
+						<h1 class="barititle">It's not just an option. <br />It's an opportunity.</h1>
 								<p>Bariatrics surgery is the most effective and lasting treatment for severe obesity, yet many patients don't even know they qualify for it.<br /></p>
 								<p>You may be a candidate for bariatric surgery if:<br /></p>
 									<ul>
@@ -95,27 +111,83 @@
 										<li>No medical or psychological conditions exist that would interfere with weight loss success.</li>
 										<li>You are motivated and willing to commit to the lifestyle changes necssary for long-term success.</li>
 									</ul>
-									<p>Even if you don't qualify for bariatric surgery, you may qualify for a non-surgical solution. Get in touch to learn more about your options.
+									<p>Even if you don't qualify for bariatric surgery, you may qualify for a non-surgical solution. Get in touch to learn more about your options. <br /><a class="btn btn-default btn-assessment" href="assessment.html">Take the Assessment</a>
 									
 						</div>
 					<div class="col-md-6 col-xs-12 col-sm-6 contact-form">
-						<div class="feature-block text-center contact-form-center">
-							<center><script type="text/javascript" src="https://form.jotform.com/jsform/200204694885156"></script></center>
+						<div class="feature-block contact-form-center">
+							<div class="c-form">
+								<h1>Explore your <br />weight loss options.</h1>
+								<p>We'll help you find the right fit.<br />
+								Fill out the form below to get in <br />touch.</p></div><script type="text/javascript" src="https://form.jotform.com/jsform/200204694885156"></script></center>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 		</section>
+		
+						<section id="chooseus"></section>
+						<section id="why-chooseus">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+													
+							<div class="col-md-6 col-xs-12 col-sm-6 r-text">
+								Request a one-on-one consultation with a specialist to learn how bariatric surgery may be your solution.
+							</div>
+							<div class="col-md-6 col-xs-12 col-sm-6 lg-text" style="display:table;height:5vw;">
+								<nav style="display:table-cell;vertical-align:middle;" class="scroll"><ul><li class="current"><a class="btn btn-default btn-request" href="#requestreferral">Request Personal Consultation</a></li></ul></nav>
+							</div>
+							
+						
+						</div>
+					</div>
+				</div>
+			
+		
+		</section>
+		<section id="assessment">
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-xs-12 col-sm-6 semibold treatment-plan">
+					<h1 class="blue lg-t2">There's no one-size-fits-all solution for weight loss.</h1>
+					<p>That's why we create a personalized treatment plan, from pre-op education to post-op care, for every patient. Support groups and nutrition counseling included. We only recommend weight loss surgery if it's truly your best option.</p>
+					<p>
+						Certified by the MBSAQIP to provide the highest standard of bariatric care, the Weight Loss & Metabolic Institute at The Woodlands Hospital is proud to offer patients a safe, in-hospital experience for a variety of weight loss procedures.</p>
+					<p>	
+						Our highly-skilled surgeons have performed over 1,500 operations and are experts in robotic-assisted surgery. Weight loss procedures we offer include:
+					</p>
+					<ul class="flex2">
+						<li>Gastric Bypass Surgery</li>
+						<li>Gastric Band Surgery</li>
+						<li>Gastric Sleeve</li>
+						<li>Bariatric Revision Surgery</li>
+					</ul>
+					<ul class="flex2 no-bullets cta-mbsaqip">
+					<li><a class="btn btn-default btn-assessment" href="assessment.html">Take the Assessment</a></li>
+					<li class="text-center"><img src="img/MBSAQIP.png" alt="MBSAQIP logo" width="90%" /></li>
+					</ul>
+					</div>
+						<div class="img-div img-pos">
+						<img src="img/assessment.jpg" class="img-fit img-fluid" alt="Take the Assessment" /></div>
+						</div>
+			</div>
+		</section>
+		<div class="section-spacer"></div>
+
 		<section id="health-benefits">
 		</section>
 		<section id="benefits">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-xs-12 col-sm-6 lg-text">
-						Discover the benefits of surgical weight loss.
+					<div class="col-md-6 col-xs-12 col-sm-6">
+						<h1 class="lg-text">Discover the benefits of surgical weight loss.</h1>
 					</div>
 					<div class="col-md-6 col-xs-12 col-sm-6 semibold">
-<p class="p-text">Obesity is linked to 40+ disease, including high blood pressure, heart disease, stroke, sleep apnea, and at least 13 types of cancer.</p>
+<p class="p-text">Obesity is linked to 40+ diseases, including high blood pressure, heart disease, stroke, sleep apnea, and at least 13 types of cancer.</p>
 <div class="p-spacer"></div>
 <p class="p-text">On average, patients lose 60% of their excess weight within 6 months of surgery and 77% within 12 months of surgery. This can make a world of difference in your health.</p>
 					</div>
@@ -127,7 +199,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="block text-center">
-							<p class="lg-t pad-text">The sooner you get started, the sooner you can experience the benefits.</p>
+							<h1 class="lg-t pad-text">The sooner you get started, the sooner you can experience the benefits.</h1>
 							<ul class="flex benefits-checklist lg-t">
 								<li>Lower blood pressure</li>
 								<li>Increased fertility</li>
@@ -145,88 +217,88 @@
 				</div>
 			</div>
 						</section>
-						<section id="our-program">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12">
-							<div class="r-spacer"></div>
-							
-							<div class="col-md-6 col-xs-12 col-sm-6 r-text">
-								Request a one-on-one consultation with a specialist to learn how bariatric surgery may be your solution.
-							</div>
-							<div class="col-md-6 col-xs-12 col-sm-6 lg-text" style="display:table;height:5vw;">
-								<div style="display:table-cell;vertical-align:middle;"><button class="btn btn-default btn-request">Request Personal Consultation</button></div>
-							</div>
-							
-						
-						</div>
-					</div>
-				</div>
-			
-		
-		</section>
-		
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-12 col-sm-6 semibold treatment-plan">
-					<span class="blue lg-t">There's no one-size-fits-all solution for weight loss.</span>
-					<p>That's why we create a personalized treatment plan, from pre-op education to post-op care, for every patient. Support groups and nutrition counseling included. We only recommend weight loss surgery if it's truly your best option.</p>
-					<p>
-						Certified by the MBSAQIP to provide the highest standard of bariatric care, the Weight Loss & Metabolic Institute at The Woodlands Hospital is proud to offer patients a safe, in-hospital experience for a variety of weight loss procedures.</p>
-					<p>	
-						Our highly-skilled surgeons have performed over 1,500 operations and are experts in robotic-assisted surgery. Weight loss procedures we offer include:
-					</p>
-					<ul class="flex2">
-						<li>Gastric Bypass Surgery</li>
-						<li>Gastric Band Surgery</li>
-						<li>Gastric Sleeve</li>
-						<li>Bariatric Revision Surgery</li>
-					</ul>
-					<ul class="flex2 no-bullets cta-mbsaqip">
-					<li><button class="btn btn-default btn-assessment">Take the Assessment</button></li>
-					<li class="text-center"><img src="img/MBSAQIP.png" width="90%" /></li>
-					</ul>
-					</div>
-					<div class="col-md-6 col-xs-12 col-sm-6 lg-text">
-						<div class="img-div">
-						<img src="img/assessment.jpg" class="img-fit" /></div>
-						</div>
-				</div>
-			</div>
-		</section>
+
+		<section id="location"></section>
 		<section id="contact-us">
-			<div class="container">
+			<div class="container-fluid no-padding">
 					<div class="col-md-12" style="background:#24509a; padding:20px 0">
-						<iframe src="https://snazzymaps.com/embed/213463" width="100%" height="720px" style="border:none;"></iframe>
+						<iframe src="https://snazzymaps.com/embed/213463" width="100%" height="600px" style="border:none;"></iframe>
+					</div>
+					<div woodlands-block="showmap"><h2>Weight Loss & Metabolic <br />Institute at the Woodlands <br />Hospital</h2>
+					    <div class="Table">
+   							<div class="Row">
+								<div class="Cell">
+									<p><img src="img/ico-phone.png"</p>
+								</div>
+								<div class="Cell">
+									<p>(936) 647-0437</p>
+								</div>
+								</div>
+							<div class="Row">
+								<div class="Cell">
+									<p><img src="img/ico-address.png"></p>
+								</div>
+								<div class="Cell">
+									<p>17200 St. Luke's Way, Suite 340<br />The Woodlands, TX 77384</p>
+								</div>
+								</div>
+						</div>
+						<a class="btn btn-default btn-directions" href="https://www.google.com/maps/place/CHI+St.+Luke's+Health-The+Woodlands+Hospital/@30.2054561,-95.4606583,17z/data=!3m1!4b1!4m5!3m4!1s0x8647373f15f5efa5:0x526cd996e78c35ff!8m2!3d30.2054515!4d-95.4584696">Get Directions</a>
 					</div>
 				</div>
-		</section>
 
-		<section id="contact-specialist">
-			<div class="container contact-div">
+		<div class="contact-specialist">
+			<div id="contact-cta" class="container-fluid no-padding contact-div">
 					<div>
-						<img src="img/bottom-form-background.jpg" width="100%" />
+						<img src="img/girl-running.jpg" alt="Get Started Today" width="100%" />
 					</div>
-					<div class="floating-form-2"><script type="text/javascript" src="https://form.jotform.com/jsform/200205342178142"></script></div>
-				</div>
-		</section>
-
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 blue-bg">
-						
+					<div id="requestreferral" class="floating-form-2">	
+						<div class="feature-block contact-form-center">
+							<div class="c-form">
+								<h1>Discuss your goals<br />with a specialist</h1>
+								<p>Connect with our team for more <br />
+									information, and we'll guide you <br /> through your next steps.</p></div>
+									<script type="text/javascript" src="https://form.jotform.com/jsform/200204694885156"></script>
+						</div>
 					</div>
 				</div>
+			</div></section>
+<section>
+	<div class="container pre-footer">
+		<div class="row">
+			<div class="col-md-12 blue-bg">
+				<div class="r-spacer"></div>
+					<hr style="border-top: 1px solid #D0D0D0"/>
 			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-3 footer-logo">
+		<!-- logo -->
+		<h1 class="navbar-brand">
+			<a href="#top"><img src="img/footer-logo.png" height="auto" width="180" alt="CHI St. Lukes Health Logo"></a>
+		</h1>
+		<!-- /logo -->
+		</div>
+		<div class="col-md-3 footer-phone">
+			(936) 647-0437
+			</div>
+			<div class="col-md-6 footer-nav">
+				<ul>
+					<li><a href="https://www.chistlukeshealth.org/about-chi-st-lukes-health/corporate-responsibility/privacy-policies">Privacy Policy</a></li>
+					<li><a href="https://www.catholichealthinitiatives.org/en/misc/terms-and-conditions.html">Terms & Conditions</a></li>
+					<li><a href="https://www.chistlukeshealth.org/about-chi-st-lukes-health/corporate-responsibility/non-discrimination-statement">Non-Discrimination Notice</a></li>
+				</ul>
+				</div>
+		</div>
+	</div></div>
+</section>
+		<footer>
 		</footer>
 	</div>
 
 		<!-- load Js -->
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
 		<script src="js/waypoints.min.js"></script>
 		<script src="js/lightbox.js"></script>
 		<script src="js/jquery.counterup.min.js"></script>
@@ -238,5 +310,23 @@
 		<script src="js/jquery.sticky.js"></script>
 		<script src="js/jquery.nav.js"></script>
 		<script src="js/main.js"></script>
+		<script>
+			function scrollNav() {
+  $('.scroll a').click(function(){  
+    //Toggle Class
+    $(".current").removeClass("current");      
+    $(this).closest('li').addClass("current");
+    var theClass = $(this).attr("class");
+    $('.'+theClass).parent('li').addClass('current');
+    //Animate
+    $('html, body').stop().animate({
+        scrollTop: $( $(this).attr('href') ).offset().top - 160
+    }, 400);
+    return false;
+  });
+  $('.scrollTop a').scrollTop();
+}
+scrollNav();
+</script>
 	</body>
 </html>
